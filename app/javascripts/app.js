@@ -49,7 +49,7 @@ window.App = {
     });
   },
 
-  refresh: function(message) {
+  refresh: async function(message) {
     Token.totalSupply.call().then(total => {
       console.log(total.toString());
     });
