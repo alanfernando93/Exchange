@@ -53,6 +53,9 @@ window.App = {
     Token.totalSupply.call().then(total => {
       console.log(total.toString());
     });
+    Exchange.getEthBalanceInWei.call().then(total => {
+      console.log(total.toString());
+    });
   },
 };
 
