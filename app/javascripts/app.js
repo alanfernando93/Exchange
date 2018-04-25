@@ -51,12 +51,6 @@ window.App = {
 
          App.refresh();
       });
-      // var amountEther = "2";
-      // ExchangeContract.deployed().then(function (instance) {
-      //   var exchangeInstance = instance;
-      //   return exchangeInstance.withdrawEther(web3.toWei(amountEther, "Ether"), {from: account});
-      // }).then(function (txResult) {
-      // })
    },
 
    refresh: async function (message) {
